@@ -10,7 +10,7 @@ app.get("/availability", (req, res, next) => {
 });
 
 app.post("/schedule", (req, res, next) => {
-    res.json(req.body);
+    res.json(req);
 });
 
 const port = process.env.PORT || 3000
